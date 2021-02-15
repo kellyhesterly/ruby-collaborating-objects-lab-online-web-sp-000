@@ -14,6 +14,6 @@ class MP3Importer
   end
 
   def files
-    @@all.uniq.length
+    @@all.count
   end
 end

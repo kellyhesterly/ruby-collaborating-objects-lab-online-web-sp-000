@@ -37,6 +37,9 @@ class Artist
   def self.create_by_name(name)
     artist = Artist.new(name)
   end
+
+  def print_songs
+  end
     # unless name == self
     # name == self
     # if name == self

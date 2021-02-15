@@ -40,7 +40,7 @@ class Artist
 
   def print_songs
     self.songs
-    binding.pru
+    binding.pru]y
 
   end
 

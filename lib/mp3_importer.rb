@@ -9,7 +9,8 @@ class MP3Importer
     save
   end
 
-  def self.save
+  def save
+    @@all << self
   end
   def files
   end

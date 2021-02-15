@@ -40,6 +40,7 @@ class Artist
 
   def print_songs
     print songs
+    binding.pry
   end
     # unless name == self
     # name == self

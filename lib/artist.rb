@@ -31,7 +31,7 @@ class Artist
     if name == self
       name
     else
-      name = Artist.new(name)
+      artist = Artist.new(name)
     # Artist.all.find do |artist|
     #     if artist.name == self
     #       artist.name

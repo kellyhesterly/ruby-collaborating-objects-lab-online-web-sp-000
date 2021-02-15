@@ -40,6 +40,7 @@ class Artist
 
   def print_songs
     Song.all.select do |song|
+      binding.pru
       if song.artist == self
         song
       end

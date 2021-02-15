@@ -18,6 +18,6 @@ class MP3Importer
     @files.delete_if {|file| file == "." || file == ".."}
   end
 
-  def import(filename)
+  def import
   end
 end

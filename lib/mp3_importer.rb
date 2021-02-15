@@ -20,5 +20,6 @@ class MP3Importer
 
   def import
     import = MP3Importer.new(path)
+    # new_by_filename = 
   end
 end

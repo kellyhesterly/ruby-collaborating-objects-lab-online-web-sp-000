@@ -18,14 +18,8 @@ class Song
     @@all
   end
 
-  def self.new_by_filename(filename)
-    MP3Importer.all.collect do |filename|
-      split_name = filename.split(" - ")
-      song = self.new(split_name[1])
-      artist = Artist.find_or_create_by_name(split_name[0])
-      song.artist = artist
-      artist.add_song(song)
-    end
-    song
+  def artist_name=(name)
+    self.artist = Artist.find_or_create_by_name(name)
+    artist.add_song(self)
   end
 end

@@ -15,7 +15,6 @@ class MP3Importer
 
   def files
     @files = Dir.entries(@path)
-    binding.pry
     @files.delete_if {|file| file == "." || file == ".."}
   end
 end

@@ -19,6 +19,6 @@ class MP3Importer
   end
 
   def import
-    MP3Importer.new(path)
+    import = MP3Importer.new(path)
   end
 end

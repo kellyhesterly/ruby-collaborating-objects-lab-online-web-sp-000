@@ -1,7 +1,7 @@
 require 'pry'
 
 class Artist
-  attr_accessor :name, :song
+  attr_accessor :name, :songs
 
   @@all = []
 
@@ -41,7 +41,7 @@ class Artist
   end
 
   def print_songs
-    @songs.each {|s| puts s.name}
+    songs.each {|}
   end
 
 end

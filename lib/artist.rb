@@ -27,11 +27,11 @@ class Artist
   end
 
   def self.find_or_create_by_name(name)
-    if name == self
-      name
-    else
-      artist = Artist.new(name)
-      binding.pry
-      end
+    name == self || artist == Artist.new(name)
+    # if name == self
+    #   name
+    # else
+    #   artist = Artist.new(name)
+    #   end
     end
 end

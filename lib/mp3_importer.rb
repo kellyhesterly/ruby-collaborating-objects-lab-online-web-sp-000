@@ -4,7 +4,7 @@ class MP3Importer
 
   @@all = []
 
-  def initialize(file)name
+  def initialize(filename
     @path = path
     save
   end
@@ -14,7 +14,7 @@ class MP3Importer
   end
 
   def files
-    music_path = 
+    music_path =
     file = MP3Importer.new(music_path)
     binding.pry
     @@all.collect

@@ -4,8 +4,8 @@ class MP3Importer
 
   @@all = []
 
-  def initialize(filepath)
-    @path = filepath
+  def initialize(filename)
+    @path = filename
     save
   end
 

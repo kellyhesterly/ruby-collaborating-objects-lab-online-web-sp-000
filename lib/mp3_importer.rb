@@ -2,9 +2,8 @@ require 'pry'
 class MP3Importer
   attr_accessor :path
 
-  @@all = [
-    
-  ]
+  @@all = []
+  
   def initialize(path)
     @path = path
   end

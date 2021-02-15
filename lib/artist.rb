@@ -39,5 +39,6 @@ class Artist
     #       artist = Artist.new(name)
     #     end
     #   end
+  end
     end
 end

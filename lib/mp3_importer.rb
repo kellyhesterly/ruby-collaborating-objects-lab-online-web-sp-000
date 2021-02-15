@@ -14,7 +14,7 @@ class MP3Importer
   end
 
   def files
-    @@all.uniq.collect
+    @@all.collect
 
   end
 end

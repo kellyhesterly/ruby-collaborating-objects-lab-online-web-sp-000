@@ -39,7 +39,7 @@ class Artist
   end
 
   def print_songs
-    songs
+    self.songs
   end
     # unless name == self
     # name == self

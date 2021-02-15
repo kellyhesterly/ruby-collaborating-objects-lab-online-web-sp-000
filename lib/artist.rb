@@ -43,6 +43,7 @@ class Artist
     song.artist == self
     song
   end
+  end
     # unless name == self
     # name == self
     # if name == self

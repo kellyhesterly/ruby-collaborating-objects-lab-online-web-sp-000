@@ -9,6 +9,8 @@ class MP3Importer
     save
   end
 
+  def self.save
+  end
   def files
   end
 end

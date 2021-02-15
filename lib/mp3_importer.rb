@@ -15,6 +15,7 @@ class MP3Importer
 
   def files
     file = MP3Importer.new(path)
+    binding.pry
     @@all.collect
   end
 end

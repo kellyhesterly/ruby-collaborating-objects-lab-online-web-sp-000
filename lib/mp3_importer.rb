@@ -15,5 +15,6 @@ class MP3Importer
 
   def files
     @@all.count
+    binding.pry
   end
 end

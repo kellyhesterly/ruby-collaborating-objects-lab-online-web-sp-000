@@ -14,6 +14,6 @@ class MP3Importer
   end
 
   def files
-    @files = DIR.entries(@path)
+    @files = DIR.entries(@path).size
   end
 end

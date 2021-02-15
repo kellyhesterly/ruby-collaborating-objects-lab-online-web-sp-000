@@ -27,7 +27,7 @@ class Artist
   end
 
   def self.find_or_create_by_name(name)
-    name = Artist.new(name).uniq unless name == self
+    name = Artist.new(name) unless name == self
     # if name == self
     #   name
     # else

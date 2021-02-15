@@ -12,7 +12,7 @@ class MP3Importer
   def save
     @@all << self
   end
-  
+
   def files
     @@all.length
   end

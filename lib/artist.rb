@@ -40,7 +40,7 @@ class Artist
 
   def print_songs
     Artist.all
-    # Song.all
+    binding.pry
 
   end
 

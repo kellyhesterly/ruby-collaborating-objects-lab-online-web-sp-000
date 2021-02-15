@@ -30,6 +30,7 @@ class Artist
     Artist.all.select do |artist|
         if artist.name == self
           artist.name
+          binding.pry
         else
           artist = Artist.new(name)
         end

@@ -14,7 +14,7 @@ class MP3Importer
   end
 
   def files
-    file = MP3Importer.new(path)
+    file = MP3Importer.new
     @@all.collect
   end
 end

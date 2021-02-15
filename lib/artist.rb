@@ -29,11 +29,11 @@ class Artist
   def self.find_or_create_by_name(name)
     # artist = Artist.new(name)
     # unless name == self
-    name == self
-    # if name == self
-    #   name
+    # name == self
+    if name == self
+      name
     # else
     #   artist = Artist.new(name)
-    #   end
+      end
     end
 end

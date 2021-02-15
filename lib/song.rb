@@ -21,6 +21,7 @@ class Song
   def self.new_by_filename(filename)
     MP3Importer.all.collect do |filename|
       split_name = filename.split(" - ")
+      self.new(split_name[1])
       binding.pry
     end
   end

@@ -4,7 +4,7 @@ class MP3Importer
 
   @@all = []
 
-  def initialize(filepath)
+  def initialize(filepath) 
     @path = filepath
     save
   end
@@ -14,9 +14,6 @@ class MP3Importer
   end
 
   def files
-    music_path =
-    file = MP3Importer.new(music_path)
-    binding.pry
-    @@all.collect
+    @files = DIR.entries(@path)
   end
 end

@@ -39,10 +39,7 @@ class Artist
   end
 
   def print_songs
-    Song.all.select do |song|
-    song.artist == self
-    song
-  end
+    song.name.artist
   end
     # unless name == self
     # name == self

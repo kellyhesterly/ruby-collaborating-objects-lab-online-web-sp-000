@@ -30,6 +30,8 @@ class Artist
     Artist.all.detect do |artist|
         if artist.name == self
           artist.name
+        else
+          artist = Artist.new(name)
     end
   end
 end

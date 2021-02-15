@@ -14,7 +14,6 @@ class MP3Importer
   end
 
   def files
-    @@all.collect
-
+    @@all.collect.length
   end
 end

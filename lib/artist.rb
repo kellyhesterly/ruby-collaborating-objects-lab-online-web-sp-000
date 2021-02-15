@@ -27,12 +27,16 @@ class Artist
   end
 
   def self.find_or_create_by_name(name)
-    Artist.all.include? do |artist|
-        if artist.name == self
-          artist.name
-        else
-          artist = Artist.new(name)
-        end
-      end
+      if artist.name == self
+        artist.name
+      else
+        artist = Artist.new(name)
+    # Artist.all.find do |artist|
+    #     if artist.name == self
+    #       artist.name
+    #     else
+    #       artist = Artist.new(name)
+    #     end
+    #   end
     end
 end

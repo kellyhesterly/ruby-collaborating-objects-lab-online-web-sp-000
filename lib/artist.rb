@@ -33,5 +33,6 @@ class Artist
         else
           artist = Artist.new(name)
         end
+        end
     end
 end
